@@ -1,6 +1,6 @@
 # Los Angeles Restaurant Market Analysis
 
-Estudo bilíngue sobre o mercado de restaurantes em Los Angeles e a possibilidade de testar uma cafetaria com serviço robotizado. Inclui notebooks Jupyter, resumos em HTML/PDF, dataset de origem e um site estático bilíngue.
+Estudo bilingue sobre o mercado de restaurantes em Los Angeles e a possibilidade de testar uma cafetaria com serviço robotizado. Inclui notebooks Jupyter, resumos em HTML/PDF, dataset de origem e um site estático bilingue.
 
 ## Estrutura
 
@@ -17,7 +17,15 @@ Abra `Los_Angeles_Restaurant_Market.code-workspace` ou a pasta do projecto. Para
 
 ## GitHub
 
-A pasta local está preparada para versionamento. <https://github.com/carolacezalves/la-restaurant-market-analysis>
+A pasta local está preparada para versionamento. Depois de criar um repositório vazio no GitHub, use o terminal integrado do VS Code:
+
+```powershell
+git status
+git add .
+git commit -m "Add bilingual LA restaurant market analysis"
+git remote add origin <https://github.com/carolacezalves/la-restaurant-market-analysis>
+git push -u origin main
+```
 
 ## Render — site estático
 
