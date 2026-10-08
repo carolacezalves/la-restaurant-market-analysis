@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: la-restaurant-market-static
+    runtime: static
+    buildCommand: echo "No build step required"
+    staticPublishPath: ./site
