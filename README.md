@@ -21,4 +21,4 @@ A pasta local está preparada para versionamento. <https://github.com/carolaceza
 
 ## Render — site estático
 
-O `render.yaml` publica apenas `https://la-restaurant-market-analysis.onrender.com`
+O `render.yaml` publica apenas <https://la-restaurant-market-analysis.onrender.com>
