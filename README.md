@@ -31,11 +31,4 @@ Não inclua palavras-passe, tokens nem credenciais no repositório.
 
 ## Render — site estático
 
-O `render.yaml` publica apenas `site/`; os notebooks e os ficheiros de análise ficam no repositório e os downloads necessários ao site ficam dentro da pasta publicada.
-
-1. Envie primeiro o repositório para o GitHub.
-2. No Render, escolha **New → Blueprint** e ligue o repositório; o Render lê `render.yaml`.
-3. Se criar o serviço manualmente como **Static Site**, escolha o mesmo repositório, deixe o comando de build vazio e indique `site` como **Publish Directory**.
-4. Após o primeiro deploy, verifique a página inicial, as duas versões, os PDFs e os downloads.
-
-A publicação ainda não foi feita: é necessário ligar este repositório à conta GitHub e ao serviço Render da utilizadora. Consulte a [documentação de Static Sites do Render](https://render.com/docs/static-sites) e a [referência de Blueprints](https://render.com/docs/blueprint-spec).
+O `render.yaml` publica apenas `https://la-restaurant-market-analysis.onrender.com`
